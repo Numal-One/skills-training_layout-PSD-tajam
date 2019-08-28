@@ -16,10 +16,31 @@ function videoPlayerToggle () {
 $(document).ready(function(){
     $('.quote-author-slider').slick({
         centerMode: true,
-        centerPadding: '60px',
-        slidesToShow: 3,
-        slidesToScroll: 1,
-       
+  centerPadding: '0px',
+  slidesToShow: 5,
+  infinite: true,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        infinite: true,
+        centerMode: true,
+        centerPadding: '0px',
+        slidesToShow: 5
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        infinite: true,
+        centerMode: true,
+        centerPadding: '0px',
+        slidesToShow: 5
+      }
+    }
+  ]
       });
 	
     sliderMenuToggle();

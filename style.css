@@ -16,7 +16,7 @@
     color: #26bfd8;
     text-transform: uppercase;
     margin-top: 50px;
-    font-family: 'Hammersmith One', arial;
+    font-family: 'Hammersmith One', sans-serif;
     font-weight: bold;
     cursor: pointer;
     transition: all .3s;
@@ -498,18 +498,19 @@ section.our_amazing_team {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .quote-symbol {
     font-size: 100px;
     color: white;
-    
 }
 
 .quote-container {
     width: 50%;
     color: white;
     text-align: center;
+    padding-left: 25px;
 
 }
 
