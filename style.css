@@ -15,7 +15,6 @@
     border-radius: 3px;
     color: #26bfd8;
     text-transform: uppercase;
-    margin-top: 50px;
     font-family: 'Hammersmith One', sans-serif;
     font-weight: bold;
     cursor: pointer;
@@ -554,6 +553,88 @@ section.our_amazing_team {
     border-radius: 50%;
     margin: 0 auto;
 }
+/*-----------------------------------FORM AND CLIENTS-------------------------------*/
+
+.form-and-clients-section{
+    
+    font-family: 'Playfair display', sans-serif;
+    color: #413d4b;
+}
+
+.form-and-clients-wrapper {
+    padding: 0 20px;
+    max-width: 960px;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.form-wpapper {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 0.6%;
+}
+
+.form-and-clients-wrapper h2{
+    margin-bottom: 35px;
+}
+
+.client-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.client-form__input-name,
+.client-form__input-email,
+.client-form__input-subject,
+.client-form__input-textarea {
+    box-sizing: border-box;
+    margin: 0 0 26px 0;
+    width: 99.58%;
+    padding: 0 15px;
+}
+
+.client-form__input-name,
+.client-form__input-email,
+.client-form__input-subject {
+    height: 35px;
+}
+
+.client-form__input-textarea {
+    height: 200px;
+    padding-top: 10px;
+}
+
+
+.client-form__button {
+    margin-top: 0;
+    width: 122px;
+    
+}
+
+.client-form__input-textarea{
+    box-sizing: border-box;
+    width: 99.58%;
+}
+
+.our-clients {
+    width: 45%;
+}
+
+.our-clients__logo-wrapper{
+    height: 449px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.our-clients__logo-img {
+    width: 40%;
+    box-sizing: border-box;
+    text-align: center;
+    /* margin-bottom: 30px; */
+}
+
 
 
 
