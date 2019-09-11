@@ -23,7 +23,7 @@ $(document).ready(function(){
     {
       breakpoint: 768,
       settings: {
-        arrows: false,
+        arrows: true,
         infinite: true,
         centerMode: true,
         centerPadding: '0px',
@@ -33,7 +33,7 @@ $(document).ready(function(){
     {
       breakpoint: 480,
       settings: {
-        arrows: false,
+        arrows: true,
         infinite: true,
         centerMode: true,
         centerPadding: '0px',
