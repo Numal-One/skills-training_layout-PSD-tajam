@@ -21,23 +21,23 @@ $(document).ready(function(){
   infinite: true,
   responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 700,
       settings: {
         arrows: true,
         infinite: true,
         centerMode: true,
         centerPadding: '0px',
-        slidesToShow: 5
+        slidesToShow: 3
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 400,
       settings: {
         arrows: true,
         infinite: true,
         centerMode: true,
         centerPadding: '0px',
-        slidesToShow: 5
+        slidesToShow: 1
       }
     }
   ]

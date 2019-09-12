@@ -555,7 +555,7 @@ header {
 
 .quote-author-slider_wrapper{
     width: 50%;
-    height: 300px;
+    height: auto;
 }
 .quote-author-slider div {
     text-align: center;
@@ -1034,4 +1034,22 @@ header {
        padding-top: 30px;
     }
 
+}
+
+@media screen and (max-width: 500px){
+    .our_team_wrapper{
+        width: 100%;
+    }
+    .expertise_section_wrapper {
+        width: 100%;
+    }
+
+    .quote-container {
+        width: 80%;
+    }
+
+    .quote-text {
+        text-align: justify;
+    }
+   
 }
